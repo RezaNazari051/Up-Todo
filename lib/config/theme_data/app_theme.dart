@@ -15,7 +15,6 @@ class CustomTheme {
               : Responsive.isTablet()
                   ? 16.sp
                   : 18.sp,
-          fontFamily: 'IrBold',
           color: Colors.black),
       bodyMedium: TextStyle(
           fontSize: Responsive.isDesktop()
@@ -23,10 +22,8 @@ class CustomTheme {
               : Responsive.isTablet()
                   ? 14.sp
                   : 16.sp,
-          fontFamily: 'IrReg',
           color: Colors.black),
       bodySmall: TextStyle(
-          fontFamily: 'IrReg',
           fontSize: Responsive.isDesktop()
               ? 5.sp
               : Responsive.isTablet()
@@ -35,7 +32,6 @@ class CustomTheme {
           color: Colors.black),
 
       titleLarge:TextStyle(
-        fontFamily: 'IrReg',
         fontSize: Responsive.isDesktop()
             ? 15.sp
             : Responsive.isTablet()
