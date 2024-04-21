@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const primaryColor = Color(0xFFF34C58);
+const primaryColor = Color(0xff8687E7);
 const primary2Color = Color(0xff21d4b4);
 const darkColor = Color(0xFF181818);
 const textFieldColor = Color(0xFFF1F2F4);
@@ -22,3 +22,4 @@ final greyColor = Colors.grey.shade300;
 //Dark Colors
 const Color darkBackgroundColor=Color(0xff121212);
 const Color primaryDarkColor=Color(0xff363636);
+const Color textFieldBorderColor=Color(0xff979797);

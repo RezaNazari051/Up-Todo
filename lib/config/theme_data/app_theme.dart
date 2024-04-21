@@ -130,11 +130,11 @@ class CustomTheme {
  
  
   //! dark theme
-  static ThemeData darkTheme = ThemeData.dark(useMaterial3: false).copyWith(
+  static ThemeData darkTheme = ThemeData.dark(useMaterial3: true).copyWith(
     textTheme: TextTheme(
       bodyMedium: GoogleFonts.lato(
         color: Colors.white,
-        fontSize: Responsive.isDesktop() ? 12.sp : 16.sp,
+        fontSize: Responsive.isDesktop() ? 12.sp : 18.sp,
       ),
       bodySmall: GoogleFonts.lato(
           fontSize: Responsive.isDesktop()
@@ -188,37 +188,36 @@ class CustomTheme {
 
     //
     inputDecorationTheme: InputDecorationTheme(
-      filled: true,
       fillColor: textFieldColor,
       focusedBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(7.5),
+        borderRadius: BorderRadius.circular(5),
         gapPadding: 10,
-        borderSide: const BorderSide(color: primary2Color, width: 1.5),
+        borderSide: const BorderSide(color: primaryColor, width: 1.5),
       ),
       errorBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(7.5),
+        borderRadius: BorderRadius.circular(5),
         gapPadding: 10,
         borderSide: const BorderSide(color: Colors.red, width: 2),
       ),
       focusedErrorBorder: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(7.5),
+        borderRadius: BorderRadius.circular(5),
         gapPadding: 10,
         borderSide: const BorderSide(color: Colors.red, width: 2),
       ),
       border: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(7.5),
+        borderRadius: BorderRadius.circular(5),
         gapPadding: 10,
         borderSide: BorderSide(color: darkColor.withOpacity(0.0), width: 1),
       ),
       disabledBorder: OutlineInputBorder(
         gapPadding: 10,
-        borderRadius: BorderRadius.circular(7.5),
+        borderRadius: BorderRadius.circular(5),
         borderSide: BorderSide(color: darkColor.withOpacity(0.0), width: 1),
       ),
       enabledBorder: OutlineInputBorder(
         gapPadding: 10,
-        borderRadius: BorderRadius.circular(7.5),
-        borderSide: BorderSide(color: darkColor.withOpacity(0.0), width: 1),
+        borderRadius: BorderRadius.circular(5),
+        borderSide: const BorderSide(color: textFieldBorderColor, width: 1),
       ),
       iconColor: primary2Color,
       suffixIconColor: primary2Color,

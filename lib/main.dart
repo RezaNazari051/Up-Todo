@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:up_todo/common/blocs/buttom_navbar_cubit.dart';
-import 'package:up_todo/common/screens/main_wrapper.dart';
 import 'package:up_todo/config/theme_data/app_theme.dart';
 import 'package:up_todo/router.dart';
 
@@ -13,6 +12,10 @@ void main(List<String> args) {
     BlocProvider(
       create: (_) => BottomNavbarCubit(),
     ),
+
+
+    //* Blocs
+
   ], child: const MyApp()));
 }
 
